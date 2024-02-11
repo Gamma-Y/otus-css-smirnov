@@ -1,0 +1,66 @@
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+blockquote {
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+}
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.list-strengths {
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+}
+
+.list-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+.corporation-info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.sub-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.main-person-describe {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+.person-describe {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
+.chapter-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
+.contact {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
