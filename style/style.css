@@ -1,66 +1,52 @@
-h1, h2 {
+h1,
+h2,
+.main-person-describe,
+.list-title {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
 }
 
-h2 {
-  font-weight: 500;
-}
 
-nav {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-}
-
-blockquote {
-  font-family: 'Bitter', serif;
-  font-weight: 400;
-}
-
-
-p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-}
-
-.list-strengths {
-  font-family: 'Bitter', serif;
-  font-weight: 400;
-}
-
+h2,
+.main-person-describe,
 .list-title {
-  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+nav,
+p,
+.corporation-info,
+.sub-link,
+.employee-name,
+.employee-quality li,
+.employee-describe,
+.chapter-title,
+.contact,
+.director-describe li {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 
 .corporation-info {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
 }
 
-.sub-link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-}
-
-.main-person-describe {
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-}
-
-.person-describe {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-}
-
-
+.sub-link,
 .chapter-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
+
+.employee-name, .employee-quality li, .employee-describe {
+  font-weight: 700;
+}
 
 .contact {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+blockquote,
+.list-strengths {
+  font-family: 'Bitter', serif;
   font-weight: 400;
 }
