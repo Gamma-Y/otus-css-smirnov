@@ -7,14 +7,16 @@
 .wrap {
   max-width: 1440px;
   margin: 0 auto;
-  box-sizing: content-box;
+  padding: 0 1rem;
+  box-sizing: border-box;
   /*outline: 1px solid red;*/
 }
 
 .background {
-  background-position: 100% 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../image/background.jpg");
+  background-image: url(../image/background.jpg);
+  background-size: cover;
   height: 630px;
 }
 
@@ -24,9 +26,13 @@
   background-color: white;
   text-align: center;
   position: absolute;
-  top:  calc(50% - 200px);
+  top: calc(50% - 180px);
   left: calc(50% - 345px);
 
+}
+
+.background-label p {
+  font-size: 20px;
 }
 
 .title {
@@ -34,7 +40,7 @@
   vertical-align: middle;
   width: 200px;
   height: 135px;
-  margin-right: calc(1440px - 200px - 630px - 5px);
+  margin-right: calc(1440px - 200px - 630px - 4%);
 }
 
 .top-nav {
