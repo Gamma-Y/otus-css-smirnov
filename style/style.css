@@ -15,6 +15,7 @@
 .main-header {
   position: relative;
   height: 135px;
+  padding-top: 1vh;
 }
 
 .background {
@@ -57,7 +58,7 @@
 .top-nav-list li {
   display: inline-block;
   font-size: 24px;
-  margin-left: 30px;
+  margin-left: 52px;
 }
 
 
@@ -156,8 +157,6 @@ blockquote {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 39px;
-
 }
 
 .main-person-describe {
