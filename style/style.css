@@ -82,6 +82,10 @@ h2,
   font-weight: 500;
 }
 
+.main-person-name {
+  font-size: 76px;
+}
+
 nav,
 p,
 .corporation-info,
@@ -128,25 +132,30 @@ blockquote {
 
 #biography {
   display: flex;
-  padding: 137px;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-  flex-direction: row;
+  margin: 11.5vh auto;
   align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 #biography img {
-  flex-basis: 50%;
-  height: 840px;
+
 }
 
 .biography-director-content {
   display: flex;
-  flex-basis: 50%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: stretch;
+  gap: 80px;
+  font-size: 76px;
 }
 
-.biography-director-content header {
-  padding: 0 30px;
+.biography-director-content header, #biography header {
+  margin-left: 28px;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   align-self: flex-start;
@@ -157,11 +166,18 @@ blockquote {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: stretch;
+  gap: 50px;
 }
 
 .main-person-describe {
-  padding: 30px 0;
   font-size: 18px;
+}
+
+blockquote {
+  max-width: 346px;
 }
 
 
