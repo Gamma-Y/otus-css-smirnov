@@ -136,7 +136,7 @@ blockquote {
   align-items: stretch;
   justify-content: center;
   align-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 #biography img {
