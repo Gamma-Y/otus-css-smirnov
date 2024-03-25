@@ -15,6 +15,7 @@
 .main-header {
   position: relative;
   height: 135px;
+  padding-top: 1vh;
 }
 
 .background {
@@ -57,7 +58,7 @@
 .top-nav-list li {
   display: inline-block;
   font-size: 24px;
-  margin-left: 30px;
+  margin-left: 52px;
 }
 
 
@@ -68,7 +69,7 @@ a {
 
 h1,
 h2,
-.main-person-describe,
+.main-person-name,
 .list-title {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
@@ -76,9 +77,13 @@ h2,
 }
 
 h2,
-.main-person-describe,
+.main-person-name,
 .list-title {
   font-weight: 500;
+}
+
+.main-person-name {
+  font-size: 76px;
 }
 
 nav,
@@ -102,6 +107,7 @@ p,
 .sub-link,
 .chapter-title {
   font-weight: 700;
+  font-size: 24px;
 }
 
 
@@ -118,3 +124,65 @@ blockquote,
   font-family: 'Bitter', serif;
   font-weight: 400;
 }
+
+blockquote {
+  font-size: 24px;
+}
+
+
+#biography {
+  display: flex;
+  margin: 11.5vh auto;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+#biography img {
+
+}
+
+.biography-director-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: stretch;
+  gap: 80px;
+  font-size: 76px;
+}
+
+.biography-director-content header, #biography header {
+  margin-left: 28px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  align-self: flex-start;
+}
+
+
+.biography-director-describe-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: stretch;
+  gap: 50px;
+}
+
+.main-person-describe {
+  font-size: 18px;
+}
+
+blockquote {
+  max-width: 346px;
+}
+
+
+.director-describe li {
+  display: inline-block;
+}
+
+
