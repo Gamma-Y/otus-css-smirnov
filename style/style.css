@@ -76,6 +76,7 @@ h2,
   font-size: 86px;
 }
 
+
 h2,
 .main-person-name,
 .list-title {
@@ -136,12 +137,9 @@ blockquote {
   align-items: stretch;
   justify-content: center;
   align-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
-#biography img {
-
-}
 
 .biography-director-content {
   display: flex;
@@ -180,9 +178,63 @@ blockquote {
   max-width: 346px;
 }
 
-
 .director-describe li {
   display: inline-block;
+}
+
+.grid {
+  display: grid;
+  column-gap: 2%;
+}
+
+#testimonials {
+  grid-template-columns: 15% 37% 1fr;
+}
+
+#testimonials-main-container {
+  grid-template-columns:1fr 1fr;
+}
+
+
+.chapter-title {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  order: 1;
+  text-align: right;
+  margin-right: 25%;
+}
+
+.testimonials-subLink-container {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  grid-row: 1/-1;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.testimonials-blockquote {
+  justify-items: center;
+  grid-template-columns: 25% 1fr 1fr;
+  grid-template-rows: repeat(2, 50%);
+  align-items: center;
+}
+
+
+.testimonials-blockquote > blockquote {
+  font-size: 32px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: center;
+}
+
+.testimonials-blockquote > img {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin-bottom: 25px;
+}
+
+.sub-link-testimonials {
+  font-size: 16px;
 }
 
 
