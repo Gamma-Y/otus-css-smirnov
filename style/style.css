@@ -133,11 +133,12 @@ blockquote {
 
 #biography {
   display: flex;
-  margin: 11.5vh auto;
+  margin: 152px auto;
   align-items: stretch;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  gap: 1%;
 }
 
 
@@ -153,7 +154,7 @@ blockquote {
 }
 
 .biography-director-content header, #biography header {
-  margin-left: 28px;
+  /*margin-left: 28px;*/
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   align-self: flex-start;
@@ -195,14 +196,15 @@ blockquote {
   grid-template-columns:1fr 1fr;
 }
 
-
-.chapter-title {
+.vertical-text{
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   order: 1;
   text-align: right;
   margin-right: 25%;
 }
+
+
 
 .testimonials-subLink-container {
   writing-mode: vertical-lr;
