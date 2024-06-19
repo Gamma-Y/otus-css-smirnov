@@ -253,7 +253,7 @@ blockquote {
   display: flex;
   gap: 15px;
   align-items: flex-end;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .slider-items {
