@@ -89,6 +89,7 @@ h2,
 
 nav,
 p,
+span,
 .corporation-info,
 .sub-link,
 .employee-name,
@@ -133,11 +134,12 @@ blockquote {
 
 #biography {
   display: flex;
-  margin: 11.5vh auto;
+  margin: 152px auto;
   align-items: stretch;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  gap: 1%;
 }
 
 
@@ -153,7 +155,7 @@ blockquote {
 }
 
 .biography-director-content header, #biography header {
-  margin-left: 28px;
+  /*margin-left: 28px;*/
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   align-self: flex-start;
@@ -195,14 +197,14 @@ blockquote {
   grid-template-columns:1fr 1fr;
 }
 
-
-.chapter-title {
+.vertical-text {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   order: 1;
   text-align: right;
   margin-right: 25%;
 }
+
 
 .testimonials-subLink-container {
   writing-mode: vertical-lr;
@@ -235,6 +237,51 @@ blockquote {
 
 .sub-link-testimonials {
   font-size: 16px;
+}
+
+#designers {
+  margin-bottom: 6%;
+
+}
+
+#designers > header {
+  margin-left: 8%;
+  margin-bottom: 26px;
+}
+
+.slider {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  overflow: auto;
+}
+
+.slider-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.slider-items > img {
+  order: -1;
+  margin-bottom: 20px;
+}
+
+.slider-items-main h3, .slider-items-main div, .slider-items-main ul {
+  margin-left: 40%;
+}
+
+.slider-items h3, .slider-items div, .slider-items ul {
+  font-size: 16px;
+}
+
+.employee-quality li {
+  display: inline-block;
+}
+
+.sub-describe-employee, .employee-quality > .sub-describe-employee {
+  font-weight: 400;
 }
 
 
